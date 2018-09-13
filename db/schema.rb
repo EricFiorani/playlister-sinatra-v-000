@@ -13,10 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20180913180907) do
 
-  create_table "artists", force: :cascade do |t|
-    t.string "name"
-  end
-
   create_table "genres", force: :cascade do |t|
     t.string "name"
   end
