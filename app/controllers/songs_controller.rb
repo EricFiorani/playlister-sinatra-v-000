@@ -2,6 +2,6 @@ class SongsController < ApplicationController
 
   get '/songs' do
 
-    erb :'/views/songs/index'
+    erb :'/songs/index'
   end
 end
