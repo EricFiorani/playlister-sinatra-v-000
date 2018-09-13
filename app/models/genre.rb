@@ -8,8 +8,7 @@ class Genre < ActiveRecord::Base
   end
 
   def self.find_by_slug(slug)
-  #  converted_slug = slug.split("-").join(" ")
     self.all.find{|genre| genre.name.parameterize == slug}
   end
 end
-end
+
