@@ -11,4 +11,3 @@ class Genre < ActiveRecord::Base
     self.all.find{|genre| genre.name.parameterize == slug}
   end
 end
-
